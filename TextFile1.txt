@@ -1,0 +1,4 @@
+﻿# Create image comparison class
+- Create video image capture functionality
+- Create annoying AF settings to crop and modify image capture
+- 
