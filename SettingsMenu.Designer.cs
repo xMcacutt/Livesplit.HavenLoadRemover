@@ -287,6 +287,7 @@ namespace LiveSplit.UI.Components
             this.link.TabIndex = 17;
             this.link.TabStop = true;
             this.link.Text = "help?";
+            this.link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_LinkClicked);
             // 
             // SettingsMenu
             // 

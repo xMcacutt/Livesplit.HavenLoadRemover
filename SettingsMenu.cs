@@ -232,6 +232,11 @@ namespace LiveSplit.UI.Components
         [return: MarshalAs(UnmanagedType.Bool)]
         private static extern bool IsWindowVisible(IntPtr hWnd);
 
+        private void link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+        {
+            Process.Start("https://github.com/xMcacutt/Livesplit.HavenLoadRemover");
+        }
     }
 
     public class WindowInfo
